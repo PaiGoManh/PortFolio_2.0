@@ -6,29 +6,29 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Profile = () => {
   return (
-    <div className='w-full h-[630px] border border-gray-200 rounded-md'>
-      <div className="pt-5 pl-[13%]">
+    <div className='w-full lg:h-[650px] h-[380px]  border border-gray-200 rounded-md'>
+      <div className="lg:pt-5 lg:pl-[9%] pl-[5%] pt-[5%]">
         <img
           src="https://rahulsajeevan-portfolio.netlify.app/assets/paigo-CZHnjRY3.jpg"
           alt="Rounded Image"
-          className="w-[260px] rounded-full ring-2 ring-gray-300"
+          className="lg:w-[260px] w-[50px] rounded-full ring-2 ring-gray-300 lg:ml-0 ml-2"
         />
       </div>
 
-      <div className='pl-8 pt-8'>
-        <h1 className='text-2xl font-bold'>Rahul Sajeevan</h1>
-        <h1 className='text-l text-gray-500'>Full Stack Blockchain Developer</h1>
-        <p className='text-l mt-3 w-[280px] text-gray-500'>
+      <div className='lg:pl-8 lg:pt-8'>
+        <h1 className='lg:text-3xl font-bold lg:pl-0 pl-[28%] lg:mt-0 mt-[-16%]'>Rahul Sajeevan</h1>
+        <h1 className='lg:text-[100%] lg:mt-1 mt-0 text-xs text-gray-500 lg:pl-0 pl-[28%]'>Full Stack Blockchain Developer</h1>
+        <p className='text-l lg:mt-6 mt-5 lg:w-[280px] w-[250px] lg:ml-0 ml-6 text-gray-500'>
           Hi, I'm Rahul Sajeevan. A Passionate Full-stack Blockchain
           developer based in Kerala, India 💻
         </p>
-        <button className='mt-3 w-[270px] h-10  bg-black text-white rounded-md'>
+        <button className='lg:mt-3 mt-5 lg:w-[270px] w-[230px] lg:ml-0 ml-6  h-10  bg-black text-white rounded-md'>
           Contact Me
         </button>
 
-        <hr className='mt-5 mr-5' />
+        <hr className='lg:mt-5 lg:mr-5 mt-5 lg:mx-0 mx-6' />
 
-        <div className='mt-5 flex items-center gap-2 cursor-pointer'>
+        <div className='lg:ml-0 lg:mb-0 mb-2 lg:mt-5 mt-5 ml-6 flex items-center gap-2 cursor-pointer'>
           <a
             href="https://github.com/Paigomanh"
             target="_blank"
@@ -44,7 +44,7 @@ const Profile = () => {
           </a>
         </div>
 
-        <div className='flex items-center gap-2 cursor-pointer'>
+        <div className='lg:ml-0 lg:mb-0 mb-2 ml-6 flex items-center gap-2 cursor-pointer'>
           <a
             href="https://www.linkedin.com/in/rahul-sajeevan-144849192/"
             target="_blank"
@@ -60,7 +60,7 @@ const Profile = () => {
           </a>
         </div>
 
-        <div className='flex items-center gap-2 cursor-pointer'>
+        <div className='lg:ml-0 ml-6 flex items-center gap-2 cursor-pointer'>
           <a
             href="https://github.com/Paigomanh"
             target="_blank"

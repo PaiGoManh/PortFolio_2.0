@@ -7,7 +7,7 @@ import Experience from '../Components/Experience'
 
 const Home = () => {
   return (
-    <div className='w-[700px] h-screen'>
+    <div className='lg:w-[690px] lg:h-screen'>
       <AboutMe/>
       <Projects/>
       <Experience/>

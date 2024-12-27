@@ -4,7 +4,7 @@ import Skill from '../Components/Skill'
 
 const Profile = () => {
   return (
-    <div className='w-[350px] h-screen'>
+    <div className='lg:w-[320px] lg:h-screen w-[290px] lg-[ml-0]'>
       <Paigo />
       <Skill />
     </div>

@@ -4,7 +4,7 @@ import Home from './Pages/Home'
 
 const App = () => {
   return (
-    <div className='flex mx-[20%] gap-[2%] mt-[3%]'>
+    <div className='lg:flex lg:gap-[2%] lg:mt-[2%] mt-[10%] ml-[5%] lg:ml-[10%]'>
       <div>
         <Profile/>
       </div>
